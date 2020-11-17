@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="40dp"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+   <RadioGroup
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content">
+      <RadioButton
+          android:id="@+id/dog"
+          android:text="강아지"
+          android:textSize="20sp"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content" />
+      <RadioButton
+          android:id="@+id/cat"
+          android:text="고양이"
+          android:textSize="20sp"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content" />
+      <RadioButton
+          android:id="@+id/bunny"
+          android:text="토끼"
+          android:textSize="20sp"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content" />
+      <RadioButton
+          android:id="@+id/horse"
+          android:text="말"
+          android:textSize="20sp"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content" />
+      <Button
+          android:layout_marginTop="20dp"
+          android:id="@+id/btn_img"
+          android:text="그림"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"/>
+
+   </RadioGroup>
+
+</LinearLayout>
